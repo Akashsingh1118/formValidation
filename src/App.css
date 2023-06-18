@@ -1,0 +1,39 @@
+html {
+  background-image: linear-gradient(to right, #00b4db, #0083b0);
+
+}
+form , input{
+  background-color: white;
+}
+.form-container {
+  background-color: white;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container label,
+.form-container input,
+.form-container select {
+  background-color: white;
+  display: block;
+  margin-bottom: 10px;
+  height: 1.3rem;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
